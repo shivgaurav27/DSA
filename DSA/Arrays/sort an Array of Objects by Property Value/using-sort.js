@@ -23,4 +23,6 @@ const products = [
 ];
 
 const sortedProducts = sortAnArrayOfObjects(products, 'price');
+const reversesortedProducts = sortAnArrayOfObjects(products, 'price', 'desc');
 console.log(sortedProducts);
+console.log(reversesortedProducts);
