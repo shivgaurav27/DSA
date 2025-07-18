@@ -2,6 +2,6 @@ function add_underscore(str) {
 	return str.split(' ').join('_');
 }
 
-let newStr = 'Counting the occurrences of a specific word/substring';
+let newStr = '3 Ways to Reverse a String in JavaScript';
 
 console.log(add_underscore(newStr));
