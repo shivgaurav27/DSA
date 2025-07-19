@@ -1,9 +1,6 @@
-function countSubstringOrWord(str, word) {
-	let segments = str.split(word);
-	return segments.length - 1;
-}
+const str = 'Hello World';
+const subStr1 = 'World';
+const subStr2 = 'Worlds';
 
-let text = 'The quick brown fox jumps over the lazy fox.';
-let wordToFind = 'fox';
-
-console.log(countSubstringOrWord(text, wordToFind));
+console.log(str.includes(subStr1));
+console.log(str.includes(subStr2));
