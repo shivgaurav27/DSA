@@ -1,0 +1,10 @@
+.text-container {
+  width: 400px;  /* Adjust width according to requirement */
+  word-wrap: break-word; /* Advise long words to break */
+  overflow-wrap: break-word;
+}
+
+
+While CSS handles text overflow effectively in many cases, 
+using JavaScript allows you to dynamically adjust text 
+properties based on external data inputs or events.
