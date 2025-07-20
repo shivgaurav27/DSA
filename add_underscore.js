@@ -2,6 +2,6 @@ function add_underscore(str) {
 	return str.split(' ').join('_');
 }
 
-let newStr = '3 Ways to Reverse a String in JavaScript';
+let newStr = 'Convert a string to Unicode code points';
 
 console.log(add_underscore(newStr));
